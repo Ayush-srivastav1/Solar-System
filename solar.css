@@ -1,0 +1,152 @@
+body{
+    
+    background-image: url(./ivana-cajina-asuyh-_ZX54-unsplash.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.sun{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: absolute;
+   border-radius: 50%;
+    box-shadow: 0px 0px 10px yellow, 0px 0px 20px yellow, 0px 0px 50px yellow;
+    
+}
+span{
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes move{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.planet1{
+    height: 250px;
+    width: 250px;
+    border: 0.5px solid white;
+    animation-duration: 2s;
+    
+}
+.planet2{
+    height: 450px;
+    width: 450px;
+    border: 0.5px solid white;
+    animation-duration: 4s;
+    
+}
+    
+.planet3{
+    height: 650px;
+    width: 650px;
+    border: 0.5px solid white;
+    animation-duration: 6s;
+}
+.planet4{
+    height: 850px;
+    width: 850px;
+    border: 0.5px solid white;
+    animation-duration: 7s;
+}
+.planet5{
+    height: 1050px;
+    width: 1050px;
+    border: 0.5px solid white;
+    animation-duration: 8s;
+}
+.planet6{
+    height: 1250px;
+    width: 1250px;
+    border: 0.5px solid white;
+    animation-duration: 9s;
+}
+.planet7{
+    height: 1450px;
+    width: 1450px;
+    border: 0.5px solid white;
+    animation-duration: 10s;
+}
+.planet8{
+    height: 1650px;
+    width: 1650px;
+    border: 0.5px solid white;
+    animation-duration: 12s;
+}
+span::before,span::after{
+    content:"" ;
+    position: absolute;
+    border-radius: 50%;
+}
+.planet1::before{
+    height: 60px;
+    width: 60px;
+    background-color: teal;
+    
+
+}
+.planet2::after{
+    height: 68px;
+    width: 68px;
+    background-color: gray;
+    left: 50px;
+
+}
+.planet3::before{
+    height: 74px;
+    width: 74px;
+    background-color: blue;
+    left: 120px;
+
+}
+.planet4::before{
+    height: 74px;
+    width: 74px;
+    background-color: red;
+    left: 250px;
+
+}
+.planet5::before{
+    height: 74px;
+    width: 74px;
+    background-color: wheat;
+    left: 300px;
+
+}
+.planet6::before{
+    height: 74px;
+    width: 74px;
+    background-color: crimson;
+    left: 350px;
+
+}
+.planet7::before{
+    height: 74px;
+    width: 74px;
+    background-color: teal;
+    left: 500px;
+
+}
+.planet8::before{
+    height: 74px;
+    width: 74px;
+    background-color: rgb(38, 5, 84);
+    left: 550px;
+
+}
+
+
+
+
